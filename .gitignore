@@ -8,3 +8,8 @@ main.out
 main.synctex.gz
 seccoes.log
 main.aux
+main.synctex(busy)
+main.xdv
+main.log'
+main.fls
+main.fdb_latexmk
