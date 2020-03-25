@@ -1,87 +1,103 @@
-# Project Title
+# Curriculum Pessoal
 
-One Paragraph of project description goes here
+========
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Este é o meu curriculum, criado em latex com a inclusão de vários pacotes. Pode ser usado como tamplate para criar um curriculum de qualquer pessoa. :)
 
-### Prerequisites
+## Requisitos Necessários
 
-What things you need to install the software and how to install them
+1. É preciso usar qualquer versão do `MikTex` igual ou superior a `2.9`, pode ser encontrado nesse Link https://miktex.org/download.
+2. É preciso usar qualquer Editor de `Latex`, recomendo o ``TexMaker`` om a versão mais actualizada, pode ser encontrado nesse Link https://www.xm1math.net/texmaker/download.html
+3. Uma outra opção seria usar o ``vscode`` pode ser encontrado nesse Link https://code.visualstudio.com/
 
+
+## Instalação E Configurações
+
+### 1. `MikTex`
+
+ Depois de Baixado e Instalado, deve-se instalar ainda alguns ``Packages``:
+ 1. Abrir o ``MikTex Console``; 
+ 2. Clicar no menu ``Updates``, e no botão ``check for updates``, e actulizar todos os ``Packages`` que estiverem na lista;
+ 3. No menu ``Packages`` existe a lista de vários ``Packages`` que estão ou não instalados, instalar alguns ``Packages`` segundo a necessidade;
+ 4. Outra maneira de encontrar ``Packages`` para o `MikTex` é ataves desse Link https://ctan.org/pkg
+
+### 2. `TexMaker`
+
+  Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendados:
+
+  1. Fazer o Download do ``GSview 5.0`` e instalar, pode ser encontrado nesse Link http://www.ghostgum.com.au/software/gsview.htm
+
+  2. Fazer o Download do ``Ghostscript`` e instalar, pode ser encontrado nesse Link https://www.ghostscript.com/download/gsdnld.html
+
+  3. Fazer o Download de algum leitor de pdf, recomendo o ``Adobe Acrobat Reader DC`` e instalar, pode ser encontrado nesse Link https://get.adobe.com/br/reader/
+
+ #### `Configurações`
+
+ 1. Abrir o `TexMaker`, menu `Opções` e `Configurar o Texmaker`; 
+ 2. Menu ``Comandos``;
+ 3. No ``Leitor de PS`` selecionar o caminho onde foi instalado o ``GSview 5.0`` com respectivo executavel;
+ 4. No ``Leitor de Pdf`` selecionar o caminho onde foi instalado o ``Adobe Acrobat Reader DC`` com respectivo executavel;
+ 5. Botão OK.
+
+### 3. `vscode`
+
+Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendados:
+
+1. Procurar saber se o ``perl.exe`` esta instalado no computador, caso contrário instalar a partir desse Link http://strawberryperl.com/;
+
+2. Instalar o ``Package`` `latexmk` utilizando o ``MikTex Console``, caso estiver instalado não precisa instalar;
+
+1. Instalar as Extensões, [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki/Installp), [LaTeX Utilities](https://github.com/tecosaur/LaTeX-Utilities), [LaTeX Preview](https://github.com/ajshort/vscode-latex-preview) no `vscode`;
+
+2. Pode ser instalada outras Extensões de ajuda para trabalhar com Latex no `vscode`;
+
+ #### `Configurações`
+
+1. Abra o ficheiro `settings.json` do `vscode` pode ser encontrado facilmente utilizando este caminho ` C:\Users\moser\AppData\Roaming\Code\User\settings.json`, trocar o `moser` com o seu nome de utilizador;
+
+2. Acrescentar o  seguinte código:
+```json
+   "latex-workshop.latex.tools":[
+        {
+            "name":"latexmk",
+            "command":"latexmk",
+            "args":[
+                "-xelatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-snippets.autoSuggestionOn": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "files.autoSave": "afterDelay",
+    "editor.peekWidgetDefaultFocus": "editor",
+    "latex-preview.command": "xelatex",
+    "latex-workshop.view.pdf.hand": true,
+    "latex-workshop.docker.image.latex": "latexindent",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.intellisense.package.enabled": true,
 ```
-Give examples
-```
 
-### Installing
+3. Salvar o ficheiro
 
-A step by step series of examples that tell you how to get a development env running
+#### ``Exemplos vscode``
 
-Say what the step will be
+Uso do `vscode` para trabalhar com documentos em ``Latex``:
 
-```
-Give the example
-```
+##### 1. ``Exemplo 1``
 
-And repeat
+![exemplo1](img/exemplo1.png)
 
-```
-until finished
-```
+##### 2. ``Exemplo 2``
 
-End with an example of getting some data out of the system or using it for a little demo
+![exemplo1](img/exemplo2.png)
 
-## Running the tests
+## Licença
 
-Explain how to run the automated tests for this system
+A licença deste projeto é regida pela licença [MIT](/LICENSE.md).
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Lembre-se apenas de ser uma pessoa legal e enviar de volta eventuais modificações, correções ou melhorias. :)
