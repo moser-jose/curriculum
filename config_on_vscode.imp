@@ -1,4 +1,4 @@
-Esta configuração é feita no arquivo settings.json do Visual Code
+Esta configuração deve ser acrescentada no arquivo settings.json do Visual Code
 
 "latex-workshop.latex.tools":[
         {
