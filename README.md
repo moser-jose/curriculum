@@ -3,26 +3,26 @@
 ========
 
 
-Este é o meu curriculum, criado em latex com a inclusão de vários pacotes. Pode ser usado como tamplate para criar um curriculum de qualquer pessoa. :)
+Este é o meu curriculum, criado em latex com a inclusão de vários ``Packages``. Pode ser usado como tamplate para criar curriculum de qualquer pessoa. :)
 
 ## Requisitos Necessários
 
-1. É preciso usar qualquer versão do `MikTex` igual ou superior a `2.9`, pode ser encontrado nesse Link https://miktex.org/download.
-2. É preciso usar qualquer Editor de `Latex`, recomendo o ``TexMaker`` om a versão mais actualizada, pode ser encontrado nesse Link https://www.xm1math.net/texmaker/download.html
+1. É preciso instalar o `MikTex` com a versão igual ou superior a `2.9`. O `MikTex` pode ser encontrado nesse Link https://miktex.org/download
+2. É preciso instalar qualquer editor de `Latex`, recomendo o ``TexMaker`` com a versão mais actualizada, pode ser encontrado nesse Link https://www.xm1math.net/texmaker/download.html
 3. Uma outra opção seria usar o ``vscode`` pode ser encontrado nesse Link https://code.visualstudio.com/
 
 
 ## Instalação E Configurações
 
-### 1. `MikTex`
+### 1. `MikTex ( Obrigatório )`
 
  Depois de Baixado e Instalado, deve-se instalar ainda alguns ``Packages``:
  1. Abrir o ``MikTex Console``; 
  2. Clicar no menu ``Updates``, e no botão ``check for updates``, e actulizar todos os ``Packages`` que estiverem na lista;
  3. No menu ``Packages`` existe a lista de vários ``Packages`` que estão ou não instalados, instalar alguns ``Packages`` segundo a necessidade;
- 4. Outra maneira de encontrar ``Packages`` para o `MikTex` é ataves desse Link https://ctan.org/pkg
+ 4. Outra maneira de encontrar ``Packages`` para o `MikTex` é através desse Link https://ctan.org/pkg
 
-### 2. `TexMaker`
+### 2. `TexMaker ( Recomendado )`
 
   Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendados:
 
@@ -40,13 +40,13 @@ Este é o meu curriculum, criado em latex com a inclusão de vários pacotes. Po
  4. No ``Leitor de Pdf`` selecionar o caminho onde foi instalado o ``Adobe Acrobat Reader DC`` com respectivo executavel;
  5. Botão OK.
 
-### 3. `vscode`
+### 3. `vscode ( Minha ferramenta de trabalho )`
 
 Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendados:
 
-1. Procurar saber se o ``perl.exe`` esta instalado no computador, caso contrário instalar a partir desse Link http://strawberryperl.com/;
+1. Procurar saber se o ``perl.exe`` esta instalado no computador, caso contrário instalar. Pode ser encontrado a partir desse Link http://strawberryperl.com/;
 
-2. Instalar o ``Package`` `latexmk` utilizando o ``MikTex Console``, caso estiver instalado não precisa instalar;
+2. Instalar o ``Package`` `latexmk` utilizando o ``MikTex Console``, caso estiver instalado não precisa reinstalar;
 
 1. Instalar as Extensões, [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki/Installp), [LaTeX Utilities](https://github.com/tecosaur/LaTeX-Utilities), [LaTeX Preview](https://github.com/ajshort/vscode-latex-preview) no `vscode`;
 
@@ -54,7 +54,7 @@ Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendad
 
  #### `Configurações`
 
-1. Abra o ficheiro `settings.json` do `vscode` pode ser encontrado facilmente utilizando este caminho ` C:\Users\moser\AppData\Roaming\Code\User\settings.json`, trocar o `moser` com o seu nome de utilizador;
+1. Abra o ficheiro `settings.json` do `vscode`, pode ser encontrado facilmente utilizando este caminho ` C:\Users\moser\AppData\Roaming\Code\User\settings.json`, trocar o `moser` com o seu nome de utilizador;
 
 2. Acrescentar o  seguinte código:
 ```json
