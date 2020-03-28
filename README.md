@@ -2,7 +2,6 @@
 
 ========
 
-
 Este é o meu curriculum, criado em latex com a inclusão de vários ``Packages``. Pode ser usado como tamplate para criar curriculum de qualquer pessoa. :)
 
 ## Requisitos Necessários
@@ -18,8 +17,11 @@ Este é o meu curriculum, criado em latex com a inclusão de vários ``Packages`
 
  Depois de Baixado e Instalado, deve-se instalar ainda alguns ``Packages``:
  1. Abrir o ``MikTex Console``; 
+
  2. Clicar no menu ``Updates``, e no botão ``check for updates``, e actulizar todos os ``Packages`` que estiverem na lista;
+ 
  3. No menu ``Packages`` existe a lista de vários ``Packages`` que estão ou não instalados, instalar alguns ``Packages`` segundo a necessidade;
+
  4. Outra maneira de encontrar ``Packages`` para o `MikTex` é através desse Link https://ctan.org/pkg
 
 ### 2. `TexMaker ( Recomendado )`
