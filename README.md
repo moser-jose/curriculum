@@ -6,9 +6,9 @@ Este é o meu curriculum, criado em latex com a inclusão de vários ``Packages`
 
 ## Requisitos Necessários
 
-1. É preciso instalar o `MikTex` com a versão igual ou superior a `2.9`. O `MikTex` pode ser encontrado nesse Link https://miktex.org/download
-2. É preciso instalar qualquer editor de `Latex`, recomendo o ``TexMaker`` com a versão mais actualizada, pode ser encontrado nesse Link https://www.xm1math.net/texmaker/download.html
-3. Uma outra opção seria usar o ``vscode`` pode ser encontrado nesse Link https://code.visualstudio.com/
+1. É preciso instalar o `MikTex` com a versão igual ou superior a `2.9`. O `MikTex` pode ser encontrado nesse Link [aqui]( https://miktex.org/download)
+2. É preciso instalar qualquer editor de `Latex`, recomendo o ``TexMaker`` com a versão mais actualizada, pode ser encontrado nesse Link [aqui](https://www.xm1math.net/texmaker/download.html)
+3. Uma outra opção seria usar o ``vscode`` pode ser encontrado nesse Link [aqui](https://code.visualstudio.com/)
 
 
 ## Instalação E Configurações
@@ -22,17 +22,17 @@ Este é o meu curriculum, criado em latex com a inclusão de vários ``Packages`
  
  3. No menu ``Packages`` existe a lista de vários ``Packages`` que estão ou não instalados, instalar alguns ``Packages`` segundo a necessidade;
 
- 4. Outra maneira de encontrar ``Packages`` para o `MikTex` é através desse Link https://ctan.org/pkg
+ 4. Outra maneira de encontrar ``Packages`` para o `MikTex` é através desse Link [aqui](https://ctan.org/pkg)
 
 ### 2. `TexMaker ( Recomendado )`
 
   Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendados:
 
-  1. Fazer o Download do ``GSview 5.0`` e instalar, pode ser encontrado nesse Link http://www.ghostgum.com.au/software/gsview.htm
+  1. Fazer o Download do ``GSview 5.0`` e instalar, pode ser encontrado nesse Link [aqui](http://www.ghostgum.com.au/software/gsview.htm)
 
-  2. Fazer o Download do ``Ghostscript`` e instalar, pode ser encontrado nesse Link https://www.ghostscript.com/download/gsdnld.html
+  2. Fazer o Download do ``Ghostscript`` e instalar, pode ser encontrado nesse Link [aqui](https://www.ghostscript.com/download/gsdnld.html)
 
-  3. Fazer o Download de algum leitor de pdf, recomendo o ``Adobe Acrobat Reader DC`` e instalar, pode ser encontrado nesse Link https://get.adobe.com/br/reader/
+  3. Fazer o Download de algum leitor de pdf, recomendo o ``Adobe Acrobat Reader DC`` e instalar, pode ser encontrado nesse Link [aqui](https://get.adobe.com/br/reader/)
 
  #### `Configurações`
 
@@ -46,7 +46,7 @@ Este é o meu curriculum, criado em latex com a inclusão de vários ``Packages`
 
 Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendados:
 
-1. Procurar saber se o ``perl.exe`` esta instalado no computador, caso contrário instalar. Pode ser encontrado a partir desse Link http://strawberryperl.com/;
+1. Procurar saber se o ``perl.exe`` esta instalado no computador, caso contrário instalar. Pode ser encontrado a partir desse Link [aqui](http://strawberryperl.com/);
 
 2. Instalar o ``Package`` `latexmk` utilizando o ``MikTex Console``, caso estiver instalado não precisa reinstalar;
 
@@ -110,5 +110,5 @@ Leia nosso guia de contribuição [aqui](CONTRIBUTING.md)
 
 ## Autor
 
-| [<img src="https://avatars0.githubusercontent.com/u/8234620?s=400&u=c865f5d78e6f2c9ccde55c0739a5988eb9e0923d&v=4"><br><sub>@moser-jose</sub>](https://github.com/moser-jose) |
+| [<img src="https://avatars0.githubusercontent.com/u/8234620?" width="115"><br><sub>@moser-jose</sub>](https://github.com/moser-jose) |
 | :---: |
