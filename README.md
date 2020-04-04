@@ -103,3 +103,12 @@ Uso do `vscode` para trabalhar com documentos em ``Latex``:
 A licença deste projeto é regida pela licença [MIT](/LICENSE.md).
 
 Lembre-se apenas de ser uma pessoa legal e enviar de volta eventuais modificações, correções ou melhorias. :)
+
+## Como contribuir
+
+Leia nosso guia de contribuição [aqui](CONTRIBUTING.md)
+
+## Autor
+
+| [<img src="https://avatars0.githubusercontent.com/u/8234620?s=400&u=c865f5d78e6f2c9ccde55c0739a5988eb9e0923d&v=4"><br><sub>@moser-jose</sub>](https://github.com/moser-jose) |
+| :---: |
