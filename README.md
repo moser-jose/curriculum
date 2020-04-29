@@ -1,8 +1,6 @@
 # Curriculum Pessoal
 
-========
-
-Este é o meu curriculum, criado em `Latex` com a inclusão de vários ``Packages``. Pode ser usado como template para criar curriculum de qualquer pessoa. :)
+Este é o template que uso para criar curriculum, criado em `Latex` com a inclusão de vários ``Packages``. Pode ser usado como template para criar curriculum de qualquer pessoa. :)
 
 ## Requisitos Necessários
 
@@ -11,7 +9,7 @@ Este é o meu curriculum, criado em `Latex` com a inclusão de vários ``Package
 3. Uma outra opção seria usar o ``vscode`` pode ser encontrado nesse Link [aqui](https://code.visualstudio.com/)
 
 
-## Instalação E Configurações
+## Instalação e Configurações
 
 ### 1. `MikTex ( Obrigatório )`
 
@@ -56,7 +54,11 @@ Depois de Baixado e Instalado, deve-se ter em conta alguns requisitos recomendad
 
  #### `Configurações`
 
-1. Abra o ficheiro `settings.json` do `vscode`, pode ser encontrado facilmente utilizando este caminho ` C:\Users\moser\AppData\Roaming\Code\User\settings.json`, trocar o `moser` pelo seu nome de utilizador;
+1. **CTRL** **+** **SHIFT** **+** **P** escrever ``settings.json`` e escolher **Open** **Settings(JSON)**
+
+**OU**
+
+1. Pode ser encontrado facilmente utilizando este caminho no **windows** ` C:\Users\%USERPROFILE%\AppData\Roaming\Code\User\settings.json`,  ``%USERPROFILE%`` é igual ao seu nome de utilizador;
 
 2. Acrescentar o  seguinte código:
 ```json
@@ -100,7 +102,7 @@ Uso do `vscode` para trabalhar com documentos em ``Latex``:
 
 ## Licença
 
-Este projeto é regida pela licença [MIT](/LICENSE.md).
+Este projeto é regido pela licença [MIT](/LICENSE.md).
 
 Lembre-se apenas de ser uma pessoa legal e enviar de volta eventuais modificações, correções ou melhorias. :)
 
