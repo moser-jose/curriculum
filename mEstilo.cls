@@ -55,11 +55,11 @@
        \vspace{.9\parskip}
        \\   
 }
-\newcommand{\mCargo}[2]{\centering \fontsize{8pt}{8pt}\color{red}%
-      {\bodyfont #1 \hspace{-0.1em}	\bullet}{\hspace{0.4em}\bodyfont  #2} 
+\newcommand{\mCargo}[3]{\centering \fontsize{8pt}{8pt}\color{red}%
+      {\bodyfont #1\hspace{-0.1em}	\bullet}{\hspace{0.4em}\bodyfont #2 \bullet}{\hspace{0.4em}\bodyfont #3}  
       \vspace{.7\parskip}
        \\}
-      
+
 \newcommand{\mEndereco}[1]{\centering \fontsize{12pt}{12pt} \color{gray} \faMapMarker*~\bodyfont #1 
       \vspace{-.7\parskip}
        }
@@ -74,6 +74,8 @@
 
 \newcommand{\mTwitter}[2]{\centering \fontsize{8.5pt}{8.5pt} \color{gray} \faTwitter~\href{https://twitter.com/#1}{\bodyfont #2}}
 \newcommand{\mStackOverflow}[2]{\centering \fontsize{8.5pt}{8.5pt} \color{gray} \faStackOverflow~\href{https://pt.stackoverflow.com/users/#1}{\bodyfont #2}}
+
+\newcommand{\mOrcid}[2]{\centering \fontsize{8.5pt}{8.5pt} \color{gray} \faOrcid~\href{https://orcid.org/#1}{\bodyfont #2}}
 
 \newcommand{\mGithub}[2]{\centering \fontsize{8.5pt}{8.5pt} \color{gray} \faGithub~\href{https://www.github.com/#1}{\bodyfont #2}}
 
@@ -107,7 +109,7 @@
   {\par\vspace{\parskip}
   {%
     \LARGE\headingfont%
-    \ #1%
+    #1%
   }
   \par\vspace{\parskip}}
   
@@ -153,6 +155,15 @@
     \hfill%
     {\footnotesize\addfontfeature{Color=red} #3}\\%
     #4\vspace{\parsep}%
+  }\\}
+
+  
+  \newcommand{\project}[3]{%
+  \textbf{#1}&\parbox[t]{12.8cm}{%
+  \footnotesize\textbf{#2} #3\vspace{1.5\parsep}%
+    %\hfill\\%
+    %{\footnotesize\addfontfeature{Color=red} #3}\\%
+    
   }\\}
   
   %-------------------------------

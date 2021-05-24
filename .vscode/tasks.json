@@ -1,0 +1,48 @@
+{
+	"version": "2.0.0",
+	"command": "xelatex",
+	"args": [
+		"-interaction=nonstopmode",
+		"-file-line-error",
+		"main.tex"
+	],
+	"problemMatcher": {
+		"owner": "latex-preview",
+		"fileLocation": [
+			"relative",
+			"${workspaceRoot}"
+		],
+		"pattern": {
+			"regexp": "^(.*):(\\d+):\\s+(.*)$",
+			"file": 1,
+			"line": 2,
+			"message": 3
+		}
+	},
+	"tasks": [
+		{
+			"label": "xelatex",
+			"type": "shell",
+			"command": "xelatex",
+			"args": [
+				"-interaction=nonstopmode",
+				"-file-line-error",
+				"main.tex"
+			],
+			"problemMatcher": {
+				"owner": "latex-preview",
+				"fileLocation": [
+					"relative",
+					"${workspaceRoot}"
+				],
+				"pattern": {
+					"regexp": "^(.*):(\\d+):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"message": 3
+				}
+			},
+			"group": "build"
+		}
+	]
+}
